@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
-  Globe, MapPin, TrendingUp, Star, PhoneMissed, RefreshCw, Megaphone, Info, Users, MessageSquareQuote, Menu, X, ChevronDown, ArrowRight,
+  Globe, MapPin, TrendingUp, Star, PhoneMissed, RefreshCw, Megaphone, Info, MessageSquareQuote, Menu, X, ChevronDown, ArrowRight,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import BookButton from "./BookButton";
@@ -39,7 +39,6 @@ const PRODUCT: { title: string; items: Item[] }[] = [
 
 const COMPANY: Item[] = [
   { href: "/about", label: "About", desc: "Who we are and how we operate", Icon: Info },
-  { href: "/team", label: "Team", desc: "The department behind your growth", Icon: Users },
   { href: "/testimonials", label: "Testimonials", desc: "What clients say about our team", Icon: MessageSquareQuote },
 ];
 
